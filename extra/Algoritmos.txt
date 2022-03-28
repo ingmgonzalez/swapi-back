@@ -1,0 +1,17 @@
+Ejercicios de lógica
+
+A.
+Inicio
+    Definir x como entero
+        Para x = 1 Hasta 100 Con paso 1 Hacer
+            Si x MOD 2 = 0 Entonces
+                Si x MOD 5 = Entonces
+                    Escribir x, ' buzz', ' - ', 'bazz'
+                SiNo
+                    Escribir x, ' buzz'
+                FinSi 
+            FinSi 
+Fin
+
+
+B.

@@ -66,6 +66,7 @@ class People(TimeStampedModel, SimpleNameModel):
     BROWN = 'brown'
     YELLOW = 'yellow'
     RED = 'red'
+    BLUE = 'blue'
     GREEN = 'green'
     PURPLE = 'purple'
     UNKNOWN = 'unknown'
@@ -75,6 +76,7 @@ class People(TimeStampedModel, SimpleNameModel):
         (BROWN, 'Brown'),
         (YELLOW, 'Yellow'),
         (RED, 'Red'),
+        (BLUE, 'Blue'),
         (GREEN, 'Green'),
         (PURPLE, 'Purple'),
         (UNKNOWN, 'Unknown'),
