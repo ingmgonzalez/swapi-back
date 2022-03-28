@@ -12,7 +12,7 @@
 
 Clone the project
 ```
-git clone https://github.com/gustav0/swapi.git
+git clone https://github.com/ingmgonzalez/swapi-back.git
 ```
 
 Move into de repo and install dependencies
@@ -28,7 +28,7 @@ python manage.py load_fixtures
 
 ### Running the server
 ```
-python manage.py runserver
+python .\manage.py runserver
 ```
 If you want to check it out, access the graphi explorer here: `127.0.0.1:8000/explore`.
 
