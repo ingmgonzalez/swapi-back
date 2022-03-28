@@ -26,7 +26,7 @@ class FirstTestCase(GraphQLTestCase):
         self.assertResponseNoErrors(response)
 
         content = json.loads(response.content)
-        self.assertEqual(len(content['data']['allPeople']['edges']), 87)
+        self.assertEqual(len(content['data']['allPeople']['edges']), 84)
 
     def test_people_mutation(self):
         # This validates the status code and if you get errors
